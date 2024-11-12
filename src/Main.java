@@ -3,7 +3,7 @@ public class Main {
         double balance = 100; //Баланс счета в рублях
         int payment = 1100; //Платёж в рублях
         int bonus = payment / 100;
-        if (bonus >= 10) {
+        if (bonus > 10) {
             System.out.println("Ваш бонус составил:" + bonus + "рублей(ля)");
             System.out.println("Ваш баланс:" + (balance + payment + bonus) + "рублей(ля)");
         } else {
